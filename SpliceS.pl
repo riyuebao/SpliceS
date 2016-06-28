@@ -901,7 +901,7 @@ sub Get_Opt
 sub Print_Menu
 {
 	my $sep = "-" x 80;
-	my $version = '0.1';
+	my $version = '0.1.0';
 	my $org = 'Center for Research Informatics, University of Chicago';
 
 	my $menu = qq~
@@ -909,7 +909,7 @@ $sep
 Copyright (c) 2016 $org
 
 Usage: $PROG [OPTIONS]
-Vesion: $version
+Version: $version
 
 Options:
  [-i|--input]     : Input sequence file. Fasta format.
