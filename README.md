@@ -28,6 +28,47 @@ cd example
 
 ```
 
+To show the menu, try to run 
+
+```
+$ ./SpliceS.pl
+
+--------------------------------------------------------------------------------
+Copyright (c) 2016 Center for Research Informatics, University of Chicago
+
+Usage: SpliceS.pl [OPTIONS]
+Vesion: 0.1.0
+
+Options:
+ [-i|--input]     : Input sequence file. Fasta format.
+                    Sequence header format must contain three fields,
+                    separated by [|].  No space allowed.
+                    For example: >gene_symbol|transcript_accessionID|species
+                    [species] must be
+                    rn or rn6; mm or mm10; hg or hg38.
+             Note : All three homolog sequences are required (rn, mm, hg).
+ [-o|--output]    : Output file prefix. Default is "$input.out".
+ [-rn|--rat]      : Rat RefSeq gene annotation. refFlat format.
+ [-mm|--mouse]    : Mouse RefSeq gene annotation. refFlat format.
+ [-hg|--human]    : Human RefSeq gene annotation. refFlat format.
+             Note : All three annotation files are required (rn, mm, hg).
+
+Three output files will be generated:
+ $output.seq.txt : Non-gapped transcript sequence with splice site labeled.
+ $output.gene_model.txt: Gene model information of known species.
+ $output.splice_pos.txt: Splice position information of the gene homologs.
+
+Example: SpliceS.pl \
+         -i KiSS1.hamster_RNAseq.alignment.fasta \
+         -rn ../data/rn6.refFlat.txt \
+         -mm ../data/mm10.refFlat.txt \
+         -hg ../data/hg38.refFlat.txt
+
+Contact: Riyue Bao <rbao@uchicago.edu>
+--------------------------------------------------------------------------------
+
+```
+
 # Documentation #
 
 Please see the [Wiki](https://github.com/riyuebao/SpliceS/wiki) for full documentation.
