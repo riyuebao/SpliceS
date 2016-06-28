@@ -61,7 +61,6 @@ Example: SpliceS.pl \
          -mm ../data/mm10.refFlat.txt \
          -hg ../data/hg38.refFlat.txt
 
-Contact: Riyue Bao <rbao@uchicago.edu>
 --------------------------------------------------------------------------------
 
 ```
