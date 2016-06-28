@@ -1,0 +1,4 @@
+GeneSymbol	AccessionID	Species	tx_start|tx_end	exon_count	exon_sizes	intron_sizes	cd_start|cd_end	cd_sizes	cd_exon_start_number|cd_exon_end_number
+kiss1	NM_002256	hg	1 | 714	3	116 | 141 | 457	3461 | 1976	154 | 570	103 | 314	2 | 3
+kiss1	NM_178260	mm	1 | 496	2	129 | 367	2015	39 | 419	91 | 290	1 | 2
+kiss1	NM_181692	rn	1 | 393	2	103 | 290	2110	1 | 393	103 | 290	1 | 2

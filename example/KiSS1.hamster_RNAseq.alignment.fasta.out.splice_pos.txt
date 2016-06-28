@@ -1,0 +1,5 @@
+GeneSymbol	AlnPos	AccessionID	Species	SplicePos	IntronSize
+kiss1	280	NM_002256	hg	116	3461
+kiss1	436	NM_002256	hg	257	1976
+kiss1	436	NM_178260	mm	129	2015
+kiss1	436	NM_181692	rn	103	2110

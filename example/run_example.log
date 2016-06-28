@@ -1,0 +1,28 @@
+
+[COMMANDS]
+SpliceS.pl --input KiSS1.hamster_RNAseq.alignment.fasta --output KiSS1.hamster_RNAseq.alignment.fasta.out--rat ../data/rn6.refFlat.txt --mouse ../data/mm10.refFlat.txt --human ../data/hg38.refFlat.txt
+
+[PROGRESS]
+[05-28-2016_09:43:23] Parsing input file $input_file
+Line total = 8
+Seq total = 4
+[05-28-2016_09:43:23] Parsing gene annotation files
+Reading [hg] ../data/hg38.refFlat.txt ... 
+Line total = 64553
+Gene total = 64553
+Gene recorded = 1
+Reading [mm] ../data/mm10.refFlat.txt ... 
+Line total = 35972
+Gene total = 35972
+Gene recorded = 1
+Reading [rn] ../data/rn6.refFlat.txt ... 
+Line total = 18983
+Gene total = 18983
+Gene recorded = 1
+[05-28-2016_09:43:25] Determining exon-exon boundries
+[05-28-2016_09:43:26] Writing outputs
+Printing KiSS1.hamster_RNAseq.alignment.fasta.out.seq.txt ...
+Printing KiSS1.hamster_RNAseq.alignment.fasta.out.gene_model.txt ...
+Printing KiSS1.hamster_RNAseq.alignment.fasta.out.splice_pos.txt ...
+[05-28-2016_09:43:26] Program run finished
+
