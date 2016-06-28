@@ -7,9 +7,7 @@ The pipeline is implemented in
 
 * [Perl](https://www.perl.org/) 
 
-<br>
 <img src="http://i.imgur.com/rhhS3tQ.png" width=1000/>
-<br>
 
 # Download #
 
@@ -21,7 +19,7 @@ $ git clone https://github.com/riyuebao/SpliceS.git
 
 # System Requirement #
 
-SpilceS requires `perl 5.18.1` or higher installed.
+SpilceS requires `perl 5.18.1` or higher installed. Users may use [MEGA](http://www.megasoftware.net/) to visualize the sequences in Fasta format or generate alignment.
 
 # Usage #
 
