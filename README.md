@@ -10,7 +10,7 @@ The pipeline is implemented in
 
 # Quick Start #
 
-To gain the first look into the pipelines, we provide sample data and scripts for a quick start demo.
+To gain the first look into how to tool works, we provide sample data and scripts for a quick start demo.
 
 In directory example/
 
@@ -34,7 +34,7 @@ Please see the [Wiki](https://github.com/riyuebao/SpliceS/wiki) for full documen
 
 # Contact #
 
-Questions and comments? Please contact Riyue Bao at <rbao at uchicago dot edu>, or post on [Issues](https://github.com/riyuebao/SpliceS/issues).
+Questions and comments? Please contact Riyue Bao at \<rbao at uchicago dot edu\>, or post on [Issues](https://github.com/riyuebao/SpliceS/issues).
 
 # Release #
 
