@@ -19,7 +19,9 @@ $ git clone https://github.com/riyuebao/SpliceS.git
 
 # System Requirement #
 
-SpilceS requires `perl 5.18.1` or higher installed. Users may use [MEGA](http://www.megasoftware.net/) to visualize the sequences in Fasta format or generate alignment.
+* SpilceS requires `perl 5.18.1` or higher. 
+* To visualize the sequences in Fasta format or generate alignment: [MEGA](http://www.megasoftware.net/) 
+* To quickly map sequence to the genome and visualize the gene model: [BLAT](https://genome.ucsc.edu/cgi-bin/hgBlat?command=start).
 
 # Usage #
 
